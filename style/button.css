@@ -1,0 +1,15 @@
+#filter-button {
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  background-color: #228b22;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+#filter-button:hover {
+  background-color: #1c7c1c;
+}

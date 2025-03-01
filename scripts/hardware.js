@@ -1,0 +1,418 @@
+export const cards = [
+  {
+    name: 'Game & Watch: The Legend of Zelda',
+    cover: 'game-watch-zelda.png',
+    company: 'Nintendo',
+    family: 'Game & Watch',
+    format: 'Handheld',
+    owned: true
+  },
+  {
+    name: 'Game & Watch: Super Mario Bros.',
+    cover: 'game-watch-mario.webp',
+    company: 'Nintendo',
+    family: 'Game & Watch',
+    format: 'Handheld',
+    owned: true
+  },
+  {
+    name: 'Game Boy',
+    cover: 'game-boy.png',
+    company: 'Nintendo',
+    family: 'Game Boy',
+    format: 'Handheld',
+    owned: false
+  },
+  {
+    name: 'Game Boy Color',
+    cover: 'game-boy-color.png',
+    company: 'Nintendo',
+    family: 'Game Boy',
+    format: 'Handheld',
+    owned: true
+  },
+  {
+    name: 'Game Boy Advance',
+    cover: 'game-boy-advance.png',
+    company: 'Nintendo',
+    family: 'Game Boy',
+    format: 'Handheld',
+    owned: true
+  },
+  {
+    name: 'Game Boy Advance SP',
+    cover: 'game-boy-advance-sp.png',
+    company: 'Nintendo',
+    family: 'Game Boy',
+    format: 'Handheld',
+    owned: true
+  },
+  {
+    name: 'Game Boy Micro',
+    cover: 'game-boy-micro.png',
+    company: 'Nintendo',
+    family: 'Game Boy',
+    format: 'Handheld',
+    owned: false
+  },
+  {
+    name: 'Nintendo DS',
+    cover: 'ds.png',
+    company: 'Nintendo',
+    family: 'DS',
+    format: 'Handheld',
+    owned: false
+  },
+  {
+    name: 'Nintendo DS Lite',
+    cover: 'ds-lite.png',
+    company: 'Nintendo',
+    family: 'DS',
+    format: 'Handheld',
+    owned: false
+  },
+  {
+    name: 'Nintendo DSi XL',
+    cover: 'ds-i-xl.png',
+    company: 'Nintendo',
+    family: 'DS',
+    format: 'Handheld',
+    owned: false
+  },
+  {
+    name: 'Nintendo 3DS XL',
+    cover: '3ds-xl.png',
+    company: 'Nintendo',
+    family: '3DS',
+    format: 'Handheld',
+    owned: false
+  },
+  {
+    name: 'Nintendo 2DS',
+    cover: '2ds.png',
+    company: 'Nintendo',
+    family: '3DS',
+    format: 'Handheld',
+    owned: false
+  },
+  {
+    name: 'New Nintendo 3DS XL',
+    cover: 'new-3ds-xl.png',
+    company: 'Nintendo',
+    family: '3DS',
+    format: 'Handheld',
+    owned: true
+  },
+  {
+    name: 'Nintendo Classic Mini: Nintendo Entertainment System',
+    cover: 'mini-nes.png',
+    company: 'Nintendo',
+    family: 'Classic Mini',
+    format: 'Dedicated',
+    owned: true
+  },
+  {
+    name: 'Nintendo Classic Mini: Super Nintendo Entertainment System',
+    cover: 'mini-snes.png',
+    company: 'Nintendo',
+    family: 'Classic Mini',
+    format: 'Dedicated',
+    owned: true
+  },
+  {
+    name: 'GameCube',
+    cover: 'gamecube.png',
+    company: 'Nintendo',
+    family: 'GameCube',
+    format: 'Home',
+    owned: true
+  },
+  {
+    name: 'GameCube Controller Indigo',
+    cover: 'gamecube-controller-indigo.png',
+    company: 'Nintendo',
+    family: 'GameCube',
+    format: 'Controller',
+    owned: true
+  },
+  {
+    name: 'GameCube Controller Jet Black',
+    cover: 'gamecube-controller-jet-black.png',
+    company: 'Nintendo',
+    family: 'GameCube',
+    format: 'Controller',
+    owned: true
+  },
+  {
+    name: 'GameCube Controller Spice Orange',
+    cover: 'gamecube-controller-spice-orange.png',
+    company: 'Nintendo',
+    family: 'GameCube',
+    format: 'Controller',
+    owned: true
+  },
+  {
+    name: 'GameCube Controller Emerald Blue',
+    cover: 'gamecube-controller-emerald-blue.png',
+    company: 'Nintendo',
+    family: 'GameCube',
+    format: 'Controller',
+    owned: true
+  },
+  {
+    name: 'Game Boy Player Controller',
+    cover: 'game-boy-controller.webp',
+    company: 'Nintendo',
+    family: 'GameCube',
+    format: 'Controller',
+    owned: true
+  },
+  {
+    name: 'Wii',
+    cover: 'wii.png',
+    company: 'Nintendo',
+    family: 'Wii',
+    format: 'Home',
+    owned: true
+  },
+  {
+    name: 'Wii Remote Plus The Legend of Zelda: Skyward Sword Edition',
+    cover: 'wii-remote-zelda.png',
+    company: 'Nintendo',
+    family: 'Wii',
+    format: 'Controller',
+    owned: true
+  },
+  {
+    name: 'Wii Remote Plus Black',
+    cover: 'wii-u-remote.png',
+    company: 'Nintendo',
+    family: 'Wii',
+    format: 'Controller',
+    owned: true
+  },
+  {
+    name: 'Wii Remote',
+    cover: 'wii-remote.png',
+    company: 'Nintendo',
+    family: 'Wii',
+    format: 'Controller',
+    owned: true
+  },
+  {
+    name: 'Nunchuck',
+    cover: 'nunchuck.png',
+    company: 'Nintendo',
+    family: 'Wii',
+    format: 'Controller',
+    owned: true
+  },
+  {
+    name: 'Wii Mini',
+    cover: 'wii-mini.png',
+    company: 'Nintendo',
+    family: 'Wii',
+    format: 'Home',
+    owned: false
+  },
+  {
+    name: 'Classic Controller Pro',
+    cover: 'classic-controller-pro.webp',
+    company: 'Nintendo',
+    family: 'Wii',
+    format: 'Controller',
+    owned: true
+  },
+  {
+    name: 'Wii Balance Board',
+    cover: 'balance-board.png',
+    company: 'Nintendo',
+    family: 'Wii',
+    format: 'Controller',
+    owned: true
+  },
+  {
+    name: 'Wii U',
+    cover: 'wii-u.png',
+    company: 'Nintendo',
+    family: 'Wii U',
+    format: 'Home',
+    owned: true
+  },
+  {
+    name: 'Wii U Pro Controller',
+    cover: 'wii-u-pro-controller.png',
+    company: 'Nintendo',
+    family: 'Wii U',
+    format: 'Controller',
+    owned: true
+  },
+  {
+    name: 'Nintendo Switch',
+    cover: 'switch.png',
+    company: 'Nintendo',
+    family: 'Switch',
+    format: 'Hybrid',
+    owned: true
+  },
+  {
+    name: 'Nintendo Switch Lite',
+    cover: 'switch-lite.png',
+    company: 'Nintendo',
+    family: 'Switch',
+    format: 'Handheld',
+    owned: false
+  },
+  {
+    name: 'Joy-Con The Legend of Zelda: Skyward Sword HD Edition',
+    cover: 'joy-con-zelda.png',
+    company: 'Nintendo',
+    family: 'Switch',
+    format: 'Controller',
+    owned: true
+  },
+  {
+    name: 'Nintendo Switch Pro Controller',
+    cover: 'switch-pro-controller.png',
+    company: 'Nintendo',
+    family: 'Switch',
+    format: 'Controller',
+    owned: true
+  },
+  {
+    name: 'Nintendo 64 Controller',
+    cover: 'n64-controller.png',
+    company: 'Nintendo',
+    family: 'Switch',
+    format: 'Controller',
+    owned: true
+  },
+  {
+    name: 'Super Nintendo Entertainment System Controller',
+    cover: 'snes-controller.webp',
+    company: 'Nintendo',
+    family: 'Switch',
+    format: 'Controller',
+    owned: true
+  },
+  {
+    name: 'Nintendo 64',
+    cover: 'n64.png',
+    company: 'Nintendo',
+    family: '64',
+    format: 'Home',
+    owned: false
+  },
+  {
+    name: 'PlayStation 2',
+    cover: 'playstation-2.png',
+    company: 'Sony',
+    family: 'PlayStation',
+    format: 'Home',
+    owned: false
+  },
+  {
+    name: 'PlayStation 3',
+    cover: 'playstation-3.png',
+    company: 'Sony',
+    family: 'PlayStation',
+    format: 'Home',
+    owned: true
+  },
+  {
+    name: 'DualShock 4',
+    cover: 'dualshock-4.png',
+    company: 'Sony',
+    family: 'PlayStation',
+    format: 'Controller',
+    owned: true
+  },
+  {
+    name: 'DualSense',
+    cover: 'dualsense.png',
+    company: 'Sony',
+    family: 'PlayStation',
+    format: 'Controller',
+    owned: false
+  },
+  {
+    name: 'PlayStation Classic',
+    cover: 'playstation-classic.png',
+    company: 'Sony',
+    family: 'PlayStation',
+    format: 'Dedicated',
+    owned: true
+  },
+  {
+    name: 'PlayStation Portable',
+    cover: 'psp.png',
+    company: 'Sony',
+    family: 'PlayStation',
+    format: 'Handheld',
+    owned: false
+  },
+  {
+    name: 'Mega Drive Mini',
+    cover: 'mini-mega-drive.png',
+    company: 'Sega',
+    family: 'Mega Drive',
+    format: 'Dedicated',
+    owned: true
+  },
+  {
+    name: 'Dreamcast',
+    cover: 'dreamcast.png',
+    company: 'Sega',
+    family: 'Dreamcast',
+    format: 'Home',
+    owned: true
+  },
+  {
+    name: 'Dreamcast Controller',
+    cover: 'dreamcast-controller.png',
+    company: 'Sega',
+    family: 'Dreamcast',
+    format: 'Controller',
+    owned: true
+  },
+  {
+    name: 'Saturn Wireless Controller',
+    cover: 'saturn-wireless-controller.png',
+    company: 'Sega',
+    family: 'Saturn',
+    format: 'Controller',
+    owned: true
+  },
+  {
+    name: 'Atari VCS Classic Controller',
+    cover: 'vcs-classic-controller.png',
+    company: 'Atari',
+    family: 'Atari VCS',
+    format: 'Controller',
+    owned: false
+  },
+  {
+    name: 'Duke',
+    cover: 'duke-controller.webp',
+    company: 'MicroSoft',
+    family: 'Xbox',
+    format: 'Controller',
+    owned: false
+  },
+  {
+    name: 'Xbox 360',
+    cover: 'xbox-360.webp',
+    company: 'MicroSoft',
+    family: 'Xbox',
+    format: 'Home',
+    owned: true
+  },
+  {
+    name: 'Xbox Wireless Controller',
+    cover: 'xbox-wireless-controller.png',
+    company: 'MicroSoft',
+    family: 'Xbox',
+    format: 'Controller',
+    owned: true
+  }
+]
