@@ -2,26 +2,39 @@ import { getFilteredCards, initializeCards, toggleShowOwned } from "./cards.js";
 import { appState } from "./state.js";
 import { createElement } from "./utils.js";
 
+const TIMEOUT = 300;
 const BUTTON_TEXT = {
   SHOW_OWNED: "Show Owned",
   SHOW_WISHLIST: "Show Wishlist",
 };
 
+function renderPage() {
+  renderButton();
+  renderCards();
+}
+
+function renderButton() {
+  let button = document.getElementsByTagName("button");
+
+  if (!button.length) {
+    button = createFilterButton();
+    document.body.appendChild(button);
+  }
+}
+
 export function renderCards() {
   let cardContainer = document.getElementById("card-container");
 
   if (!cardContainer) {
-    const app = createElement("div", { id: "app" });
-
-    const button = createFilterButton();
-    app.appendChild(button);
-
     cardContainer = createCardContainer();
-    app.appendChild(cardContainer);
 
-    document.body.appendChild(app);
+    document.body.appendChild(cardContainer);
   } else {
-    cardContainer.replaceWith(createCardContainer());
+    cardContainer.classList.remove("visible");
+
+    setTimeout(() => {
+      populateCardContainer(cardContainer);
+    }, TIMEOUT);
   }
 }
 
@@ -33,7 +46,7 @@ function createCardContainer() {
 
   setTimeout(() => {
     populateCardContainer(cardContainer);
-  }, 300);
+  }, TIMEOUT);
 
   return cardContainer;
 }
@@ -44,7 +57,7 @@ function populateCardContainer(cardContainer) {
   const filteredCards = getFilteredCards();
 
   filteredCards.forEach((card) => {
-    const cardElement = createCardWrapper(card);
+    const cardElement = createCard(card);
 
     cardContainer.appendChild(cardElement);
   });
@@ -54,31 +67,19 @@ function populateCardContainer(cardContainer) {
   });
 }
 
-function createCardWrapper(cardData) {
-  const cardWrapper = createElement("div", { class: "card-wrapper" });
-  const card = createCard(cardData);
-
-  cardWrapper.appendChild(card);
-
-  return cardWrapper;
-}
-
 function createCard({ name, cover }) {
   const card = createElement("div", { class: "card fade-in" });
-  const cardFront = createElement("div", { class: "card-front" });
 
-  cardFront.innerHTML = `
+  card.innerHTML = `
     <img class="cover" src="./assets/images/${cover}" alt="${name} cover" />
     <h4>${name}</h4>
   `;
-
-  card.appendChild(cardFront);
 
   return card;
 }
 
 function createFilterButton() {
-  const button = createElement("button", { id: "filter-button" });
+  const button = createElement("button");
 
   switchButtonText(button);
 
@@ -98,9 +99,9 @@ function switchButtonText(button) {
     : BUTTON_TEXT.SHOW_OWNED;
 }
 
-appState.subscribe(() => renderCards());
+appState.subscribe(() => renderPage());
 
 document.addEventListener("DOMContentLoaded", () => {
   initializeCards();
-  renderCards();
+  renderPage();
 });
