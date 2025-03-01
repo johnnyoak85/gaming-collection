@@ -25,7 +25,7 @@ export const cards = [
   },
   {
     name: "Game Boy Color",
-    cover: "game-boy-color",
+    cover: "gbc",
     company: "Nintendo",
     family: "Game Boy",
     format: "Handheld",
