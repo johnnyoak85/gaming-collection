@@ -71,7 +71,7 @@ function createCard({ name, cover }) {
   const card = createElement("div", { class: "card fade-in" });
 
   card.innerHTML = `
-    <img class="cover" src="./assets/images/${cover}" alt="${name} cover" />
+    <img class="cover" src="./assets/images/${cover}.png" alt="${name} cover" />
     <h4>${name}</h4>
   `;
 

@@ -1,7 +1,7 @@
 export const cards = [
   {
     name: "Game & Watch: The Legend of Zelda",
-    cover: "game-watch-zelda.png",
+    cover: "game-watch-zelda",
     company: "Nintendo",
     family: "Game & Watch",
     format: "Handheld",
@@ -9,7 +9,7 @@ export const cards = [
   },
   {
     name: "Game & Watch: Super Mario Bros.",
-    cover: "game-watch-mario.webp",
+    cover: "game-watch-mario",
     company: "Nintendo",
     family: "Game & Watch",
     format: "Handheld",
@@ -17,7 +17,7 @@ export const cards = [
   },
   {
     name: "Game Boy",
-    cover: "game-boy.png",
+    cover: "game-boy",
     company: "Nintendo",
     family: "Game Boy",
     format: "Handheld",
@@ -25,7 +25,7 @@ export const cards = [
   },
   {
     name: "Game Boy Color",
-    cover: "game-boy-color.png",
+    cover: "game-boy-color",
     company: "Nintendo",
     family: "Game Boy",
     format: "Handheld",
@@ -33,7 +33,7 @@ export const cards = [
   },
   {
     name: "Game Boy Advance",
-    cover: "game-boy-advance.png",
+    cover: "game-boy-advance",
     company: "Nintendo",
     family: "Game Boy",
     format: "Handheld",
@@ -41,7 +41,7 @@ export const cards = [
   },
   {
     name: "Game Boy Advance",
-    cover: "gba-white.png",
+    cover: "gba-white",
     company: "Nintendo",
     family: "Game Boy",
     format: "Handheld",
@@ -49,7 +49,7 @@ export const cards = [
   },
   {
     name: "Game Boy Advance SP",
-    cover: "game-boy-advance-sp.png",
+    cover: "game-boy-advance-sp",
     company: "Nintendo",
     family: "Game Boy",
     format: "Handheld",
@@ -57,7 +57,7 @@ export const cards = [
   },
   {
     name: "Game Boy Micro",
-    cover: "game-boy-micro.png",
+    cover: "game-boy-micro",
     company: "Nintendo",
     family: "Game Boy",
     format: "Handheld",
@@ -65,7 +65,7 @@ export const cards = [
   },
   {
     name: "Nintendo DS",
-    cover: "ds.png",
+    cover: "ds",
     company: "Nintendo",
     family: "DS",
     format: "Handheld",
@@ -73,7 +73,7 @@ export const cards = [
   },
   {
     name: "Nintendo DS Lite",
-    cover: "ds-lite.png",
+    cover: "ds-lite",
     company: "Nintendo",
     family: "DS",
     format: "Handheld",
@@ -81,7 +81,7 @@ export const cards = [
   },
   {
     name: "Nintendo DSi XL",
-    cover: "ds-i-xl.png",
+    cover: "ds-i-xl",
     company: "Nintendo",
     family: "DS",
     format: "Handheld",
@@ -89,7 +89,7 @@ export const cards = [
   },
   {
     name: "Nintendo 3DS XL",
-    cover: "3ds-xl.png",
+    cover: "3ds-xl",
     company: "Nintendo",
     family: "3DS",
     format: "Handheld",
@@ -97,7 +97,7 @@ export const cards = [
   },
   {
     name: "Nintendo 2DS",
-    cover: "2ds.png",
+    cover: "2ds",
     company: "Nintendo",
     family: "3DS",
     format: "Handheld",
@@ -105,7 +105,7 @@ export const cards = [
   },
   {
     name: "New Nintendo 3DS XL",
-    cover: "new-3ds-xl.png",
+    cover: "new-3ds-xl",
     company: "Nintendo",
     family: "3DS",
     format: "Handheld",
@@ -113,7 +113,7 @@ export const cards = [
   },
   {
     name: "Nintendo Classic Mini: Nintendo Entertainment System",
-    cover: "nes-classic.png",
+    cover: "nes-classic",
     company: "Nintendo",
     family: "Classic Mini",
     format: "Dedicated",
@@ -121,7 +121,7 @@ export const cards = [
   },
   {
     name: "Nintendo Classic Mini: Nintendo Entertainment System Controller",
-    cover: "nes-classic-controller.png",
+    cover: "nes-classic-controller",
     company: "Nintendo",
     family: "Classic Mini",
     format: "Controller",
@@ -129,7 +129,7 @@ export const cards = [
   },
   {
     name: "Nintendo Classic Mini: Super Nintendo Entertainment System",
-    cover: "snes-classic.png",
+    cover: "snes-classic",
     company: "Nintendo",
     family: "Classic Mini",
     format: "Dedicated",
@@ -137,7 +137,7 @@ export const cards = [
   },
   {
     name: "Nintendo Classic Mini: Super Nintendo Entertainment System Controller",
-    cover: "snes-classic-controller.png",
+    cover: "snes-classic-controller",
     company: "Nintendo",
     family: "Classic Mini",
     format: "Controller",
@@ -145,7 +145,7 @@ export const cards = [
   },
   {
     name: "GameCube",
-    cover: "gamecube.png",
+    cover: "gamecube",
     company: "Nintendo",
     family: "GameCube",
     format: "Home",
@@ -153,7 +153,7 @@ export const cards = [
   },
   {
     name: "GameCube Controller Platinum",
-    cover: "gamecube-controller-platinum.png",
+    cover: "gamecube-controller-platinum",
     company: "Nintendo",
     family: "GameCube",
     format: "Controller",
@@ -161,7 +161,7 @@ export const cards = [
   },
   {
     name: "GameCube Controller Indigo",
-    cover: "gamecube-controller-indigo.png",
+    cover: "gamecube-controller-indigo",
     company: "Nintendo",
     family: "GameCube",
     format: "Controller",
@@ -169,7 +169,7 @@ export const cards = [
   },
   {
     name: "GameCube Controller Jet Black",
-    cover: "gamecube-controller-jet-black.png",
+    cover: "gamecube-controller-jet-black",
     company: "Nintendo",
     family: "GameCube",
     format: "Controller",
@@ -177,7 +177,7 @@ export const cards = [
   },
   {
     name: "GameCube Controller Spice Orange",
-    cover: "gamecube-controller-spice-orange.png",
+    cover: "gamecube-controller-spice-orange",
     company: "Nintendo",
     family: "GameCube",
     format: "Controller",
@@ -185,7 +185,7 @@ export const cards = [
   },
   {
     name: "GameCube Controller Emerald Blue",
-    cover: "gamecube-controller-emerald-blue.png",
+    cover: "gamecube-controller-emerald-blue",
     company: "Nintendo",
     family: "GameCube",
     format: "Controller",
@@ -193,7 +193,7 @@ export const cards = [
   },
   {
     name: "Game Boy Player Controller",
-    cover: "game-boy-controller.webp",
+    cover: "game-boy-controller",
     company: "Nintendo",
     family: "GameCube",
     format: "Controller",
@@ -201,7 +201,7 @@ export const cards = [
   },
   {
     name: "Wii",
-    cover: "wii.png",
+    cover: "wii",
     company: "Nintendo",
     family: "Wii",
     format: "Home",
@@ -209,7 +209,7 @@ export const cards = [
   },
   {
     name: "Wii Remote Plus The Legend of Zelda: Skyward Sword Edition",
-    cover: "wii-remote-zelda.png",
+    cover: "wii-remote-zelda",
     company: "Nintendo",
     family: "Wii",
     format: "Controller",
@@ -217,15 +217,23 @@ export const cards = [
   },
   {
     name: "Wii Remote Plus Black",
-    cover: "wii-u-remote.png",
+    cover: "wii-remote-plus-black",
     company: "Nintendo",
     family: "Wii",
     format: "Controller",
     owned: true,
   },
   {
+    name: "Wii Remote Plus Red",
+    cover: "wii-remote-plus-red",
+    company: "Nintendo",
+    family: "Wii",
+    format: "Controller",
+    owned: false,
+  },
+  {
     name: "Wii Remote",
-    cover: "wii-remote.png",
+    cover: "wii-remote",
     company: "Nintendo",
     family: "Wii",
     format: "Controller",
@@ -233,7 +241,7 @@ export const cards = [
   },
   {
     name: "Nunchuck",
-    cover: "nunchuck.png",
+    cover: "nunchuck",
     company: "Nintendo",
     family: "Wii",
     format: "Controller",
@@ -241,7 +249,7 @@ export const cards = [
   },
   {
     name: "Wii Mini",
-    cover: "wii-mini.png",
+    cover: "wii-mini",
     company: "Nintendo",
     family: "Wii",
     format: "Home",
@@ -249,7 +257,7 @@ export const cards = [
   },
   {
     name: "Classic Controller Pro",
-    cover: "classic-controller-pro.webp",
+    cover: "classic-controller-pro",
     company: "Nintendo",
     family: "Wii",
     format: "Controller",
@@ -257,7 +265,7 @@ export const cards = [
   },
   {
     name: "Wii Balance Board",
-    cover: "balance-board.png",
+    cover: "balance-board",
     company: "Nintendo",
     family: "Wii",
     format: "Controller",
@@ -265,7 +273,7 @@ export const cards = [
   },
   {
     name: "Wii U",
-    cover: "wii-u.png",
+    cover: "wii-u",
     company: "Nintendo",
     family: "Wii U",
     format: "Home",
@@ -273,7 +281,7 @@ export const cards = [
   },
   {
     name: "Wii U Gamepad",
-    cover: "wii-u-gamepad.png",
+    cover: "wii-u-gamepad",
     company: "Nintendo",
     family: "Wii U",
     format: "Controller",
@@ -281,7 +289,7 @@ export const cards = [
   },
   {
     name: "Wii U Pro Controller",
-    cover: "wii-u-pro-controller.png",
+    cover: "wii-u-pro-controller",
     company: "Nintendo",
     family: "Wii U",
     format: "Controller",
@@ -289,7 +297,7 @@ export const cards = [
   },
   {
     name: "Nintendo Switch",
-    cover: "switch.png",
+    cover: "switch",
     company: "Nintendo",
     family: "Switch",
     format: "Hybrid",
@@ -297,7 +305,7 @@ export const cards = [
   },
   {
     name: "Nintendo Switch Lite",
-    cover: "switch-lite.png",
+    cover: "switch-lite",
     company: "Nintendo",
     family: "Switch",
     format: "Handheld",
@@ -305,7 +313,7 @@ export const cards = [
   },
   {
     name: "Joy-Con Neon Red Neon Blue",
-    cover: "joy-con-neon.png",
+    cover: "joy-con-neon",
     company: "Nintendo",
     family: "Switch",
     format: "Controller",
@@ -313,7 +321,7 @@ export const cards = [
   },
   {
     name: "Joy-Con The Legend of Zelda: Skyward Sword HD Edition",
-    cover: "joy-con-zelda.png",
+    cover: "joy-con-zelda",
     company: "Nintendo",
     family: "Switch",
     format: "Controller",
@@ -321,7 +329,7 @@ export const cards = [
   },
   {
     name: "Nintendo Switch Pro Controller",
-    cover: "switch-pro-controller.png",
+    cover: "switch-pro-controller",
     company: "Nintendo",
     family: "Switch",
     format: "Controller",
@@ -329,7 +337,7 @@ export const cards = [
   },
   {
     name: "Nintendo 64 Controller",
-    cover: "n64-controller.png",
+    cover: "n64-controller",
     company: "Nintendo",
     family: "Switch",
     format: "Controller",
@@ -337,7 +345,7 @@ export const cards = [
   },
   {
     name: "Nintendo 64 Controller",
-    cover: "n64-controller-grey.png",
+    cover: "n64-controller-grey",
     company: "Nintendo",
     family: "Nintendo 64",
     format: "Controller",
@@ -345,7 +353,7 @@ export const cards = [
   },
   {
     name: "Nintendo 64 Controller Black Gray",
-    cover: "n64-controller-black.png",
+    cover: "n64-controller-black",
     company: "Nintendo",
     family: "Nintendo 64",
     format: "Controller",
@@ -353,7 +361,7 @@ export const cards = [
   },
   {
     name: "Super Nintendo Entertainment System Controller",
-    cover: "snes-controller.webp",
+    cover: "snes-controller",
     company: "Nintendo",
     family: "Switch",
     format: "Controller",
@@ -361,7 +369,7 @@ export const cards = [
   },
   {
     name: "Nintendo 64",
-    cover: "n64.png",
+    cover: "n64",
     company: "Nintendo",
     family: "64",
     format: "Home",
@@ -369,7 +377,7 @@ export const cards = [
   },
   {
     name: "PlayStation 2",
-    cover: "ps2.png",
+    cover: "ps2",
     company: "Sony",
     family: "PlayStation",
     format: "Home",
@@ -377,7 +385,7 @@ export const cards = [
   },
   {
     name: "PlayStation 3",
-    cover: "ps3.png",
+    cover: "ps3",
     company: "Sony",
     family: "PlayStation",
     format: "Home",
@@ -385,7 +393,7 @@ export const cards = [
   },
   {
     name: "DualShock 2",
-    cover: "dualshock2.png",
+    cover: "dualshock2",
     company: "Sony",
     family: "PlayStation",
     format: "Controller",
@@ -393,7 +401,7 @@ export const cards = [
   },
   {
     name: "DualShock 3",
-    cover: "dualshock3.png",
+    cover: "dualshock3",
     company: "Sony",
     family: "PlayStation",
     format: "Controller",
@@ -401,7 +409,7 @@ export const cards = [
   },
   {
     name: "DualShock 4",
-    cover: "dualshock4.png",
+    cover: "dualshock4",
     company: "Sony",
     family: "PlayStation",
     format: "Controller",
@@ -409,7 +417,7 @@ export const cards = [
   },
   {
     name: "DualSense",
-    cover: "dualsense.png",
+    cover: "dualsense",
     company: "Sony",
     family: "PlayStation",
     format: "Controller",
@@ -417,7 +425,7 @@ export const cards = [
   },
   {
     name: "PlayStation Classic",
-    cover: "playstation-classic.png",
+    cover: "playstation-classic",
     company: "Sony",
     family: "PlayStation",
     format: "Dedicated",
@@ -425,7 +433,7 @@ export const cards = [
   },
   {
     name: "PlayStation Classic Controller",
-    cover: "playstation-controller.png",
+    cover: "playstation-controller",
     company: "Sony",
     family: "PlayStation",
     format: "Controller",
@@ -433,7 +441,7 @@ export const cards = [
   },
   {
     name: "PlayStation Portable",
-    cover: "psp.png",
+    cover: "psp",
     company: "Sony",
     family: "PlayStation",
     format: "Handheld",
@@ -441,7 +449,7 @@ export const cards = [
   },
   {
     name: "Mega Drive Mini",
-    cover: "mega-drive.png",
+    cover: "mega-drive-mini",
     company: "Sega",
     family: "Mega Drive",
     format: "Dedicated",
@@ -449,7 +457,7 @@ export const cards = [
   },
   {
     name: "Mega Drive Mini Controller",
-    cover: "mega-drive-controller.png",
+    cover: "mega-drive-mini-controller",
     company: "Sega",
     family: "Mega Drive",
     format: "Controller",
@@ -457,7 +465,7 @@ export const cards = [
   },
   {
     name: "Dreamcast",
-    cover: "dreamcast.png",
+    cover: "dreamcast",
     company: "Sega",
     family: "Dreamcast",
     format: "Home",
@@ -465,7 +473,7 @@ export const cards = [
   },
   {
     name: "Dreamcast Controller",
-    cover: "dreamcast-controller.png",
+    cover: "dreamcast-controller",
     company: "Sega",
     family: "Dreamcast",
     format: "Controller",
@@ -473,7 +481,7 @@ export const cards = [
   },
   {
     name: "Saturn Wireless Controller",
-    cover: "saturn-wireless-controller.png",
+    cover: "saturn-wireless-controller",
     company: "Sega",
     family: "Saturn",
     format: "Controller",
@@ -481,7 +489,7 @@ export const cards = [
   },
   {
     name: "Atari VCS Classic Controller",
-    cover: "vcs-classic-controller.png",
+    cover: "vcs-classic-controller",
     company: "Atari",
     family: "Atari VCS",
     format: "Controller",
@@ -489,7 +497,7 @@ export const cards = [
   },
   {
     name: "Duke",
-    cover: "duke-controller.webp",
+    cover: "duke",
     company: "MicroSoft",
     family: "Xbox",
     format: "Controller",
@@ -497,7 +505,7 @@ export const cards = [
   },
   {
     name: "Xbox 360",
-    cover: "xbox-360.png",
+    cover: "xbox-360",
     company: "MicroSoft",
     family: "Xbox",
     format: "Home",
@@ -505,7 +513,7 @@ export const cards = [
   },
   {
     name: "Xbox 360 Controller",
-    cover: "xbox-360-controller.png",
+    cover: "xbox-360-controller",
     company: "MicroSoft",
     family: "Xbox",
     format: "Controller",
@@ -513,7 +521,7 @@ export const cards = [
   },
   {
     name: "Xbox 360 Wireless Controller",
-    cover: "xbox-360-wireless-controller.png",
+    cover: "xbox-360-wireless-controller",
     company: "MicroSoft",
     family: "Xbox",
     format: "Controller",
@@ -521,7 +529,7 @@ export const cards = [
   },
   {
     name: "Xbox Wireless Controller",
-    cover: "xbox-wireless-controller.png",
+    cover: "xbox-wireless-controller",
     company: "MicroSoft",
     family: "Xbox",
     format: "Controller",
