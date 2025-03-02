@@ -67,11 +67,11 @@ function populateCardContainer(cardContainer) {
   });
 }
 
-function createCard({ name, cover }) {
+function createCard({ name, image }) {
   const card = createElement("div", { class: "card fade-in" });
 
   card.innerHTML = `
-    <img class="cover" src="./assets/images/${cover}.png" alt="${name} cover" />
+    <img class="cover" src="./assets/images/${image}.png" alt="${name} cover" />
     <h4>${name}</h4>
   `;
 
