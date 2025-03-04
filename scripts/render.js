@@ -1,107 +1,73 @@
-import { getFilteredCards, initializeCards, toggleShowOwned } from "./cards.js";
+import { getFilteredCardsByType } from "./cards.js";
 import { appState } from "./state.js";
 import { createElement } from "./utils.js";
 
 const TIMEOUT = 300;
-const BUTTON_TEXT = {
-  SHOW_OWNED: "Show Owned",
-  SHOW_WISHLIST: "Show Wishlist",
-};
 
-function renderPage() {
-  renderButton();
-  renderCards();
-}
+/**
+ * Renders cards for the given tab.
+ * @param {string} tabId - The active tab id (e.g., "hardware", "amiibos", "games")
+ */
+export function renderCards(tabId) {
+  const panel = document.getElementById(tabId);
 
-function renderButton() {
-  let button = document.getElementsByTagName("button");
-
-  if (!button.length) {
-    button = createFilterButton();
-    document.body.appendChild(button);
+  if (!panel) {
+    return;
   }
-}
 
-export function renderCards() {
-  let cardContainer = document.getElementById("card-container");
+  // Get the current sort option from state (default to "default" if not set)
+  const { sortOption } = appState.getState();
+
+  // Find or create a card container within the active panel
+  let cardContainer = panel.querySelector("#card-container");
 
   if (!cardContainer) {
     cardContainer = createCardContainer();
-
-    document.body.appendChild(cardContainer);
+    panel.appendChild(cardContainer);
   } else {
+    // For smooth transition: remove visible class, update content after timeout
     cardContainer.classList.remove("visible");
 
     setTimeout(() => {
-      populateCardContainer(cardContainer);
+      populateCardContainer(cardContainer, tabId, sortOption);
     }, TIMEOUT);
   }
+
+  // If the container is empty (just created), populate it immediately.
+  if (!cardContainer.hasChildNodes()) {
+    populateCardContainer(cardContainer, tabId, sortOption);
+  }
+
+  // Trigger fade-in transition (assumes CSS handles .visible appropriately)
+  requestAnimationFrame(() => {
+    cardContainer.classList.add("visible");
+  });
 }
 
 function createCardContainer() {
-  const cardContainer = createElement("div", {
+  return createElement("div", {
     id: "card-container",
     class: "fade-out",
   });
-
-  setTimeout(() => {
-    populateCardContainer(cardContainer);
-  }, TIMEOUT);
-
-  return cardContainer;
 }
 
-function populateCardContainer(cardContainer) {
+function populateCardContainer(cardContainer, tabId, sortOption) {
   cardContainer.innerHTML = "";
 
-  const filteredCards = getFilteredCards();
+  const filteredCards = getFilteredCardsByType(tabId, sortOption);
 
   filteredCards.forEach((card) => {
     const cardElement = createCard(card);
 
     cardContainer.appendChild(cardElement);
   });
-
-  requestAnimationFrame(() => {
-    cardContainer.classList.add("visible");
-  });
 }
 
 function createCard({ name, image }) {
-  const card = createElement("div", { class: "card fade-in" });
-
+  const card = createElement("div", { class: "card" });
   card.innerHTML = `
     <img class="cover" src="./assets/images/${image}.png" alt="${name} cover" />
     <h4>${name}</h4>
   `;
-
   return card;
 }
-
-function createFilterButton() {
-  const button = createElement("button");
-
-  switchButtonText(button);
-
-  button.addEventListener("click", () => {
-    toggleShowOwned();
-    switchButtonText(button);
-  });
-
-  return button;
-}
-
-function switchButtonText(button) {
-  const { showOwned } = appState.getState();
-
-  button.textContent = showOwned
-    ? BUTTON_TEXT.SHOW_WISHLIST
-    : BUTTON_TEXT.SHOW_OWNED;
-}
-
-appState.subscribe(() => renderPage());
-
-document.addEventListener("DOMContentLoaded", () => {
-  initializeCards();
-  renderPage();
-});

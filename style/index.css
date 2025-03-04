@@ -1,7 +1,190 @@
+/* ===================== */
+/* Base Body Styles      */
+/* ===================== */
 body {
   text-align: center;
   padding: 16px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   background-color: #222222;
+  margin: 0;
+}
+
+/* ===================== */
+/* Tabs Section          */
+/* ===================== */
+/* Container for Tabs */
+#tabs {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin: 0; /* Remove extra margin to ensure tabs are on top */
+  padding: 10px 0;
+}
+
+/* Base Tab Button */
+button.tab {
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px 5px 0 0;
+  transition: background 0.3s ease;
+  color: #f8f8ff;
+}
+
+/* Tab Colors based on data-tab attribute */
+button.tab[data-tab="hardware"] {
+  background-color: #3b82f6;
+}
+button.tab[data-tab="hardware"]:hover {
+  background-color: #60a5fa;
+}
+button.tab[data-tab="hardware"].active {
+  background-color: #2563eb;
+}
+
+button.tab[data-tab="amiibos"] {
+  background-color: #ff7f50;
+}
+button.tab[data-tab="amiibos"]:hover {
+  background-color: #ffa07a;
+}
+button.tab[data-tab="amiibos"].active {
+  background-color: #ff6347;
+}
+
+button.tab[data-tab="games"] {
+  background-color: #32cd32;
+}
+button.tab[data-tab="games"]:hover {
+  background-color: #66ff66;
+}
+button.tab[data-tab="games"].active {
+  background-color: #2e8b57;
+}
+
+/* ===================== */
+/* Panels Section        */
+/* ===================== */
+/* Panels Container (no background) */
+#tab-content {
+  padding: 10px;
+}
+
+/* Each Tab Panel (invisible by default) */
+.tab-panel {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.3s ease-out;
+}
+
+/* Active panel is shown and then faded in */
+.tab-panel.active {
+  display: block;
+  opacity: 1;
+}
+
+/* ===================== */
+/* Controls Section      */
+/* ===================== */
+/* Container for Owned Toggle & Sort Dropdown */
+#controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+/* Toggle Button for Owned/Wishlist */
+#toggle-owned {
+  padding: 8px 12px;
+  font-size: 14px;
+  background-color: #3b82f6;
+  color: #f8f8ff;
+  border: none;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+#toggle-owned:hover {
+  background-color: #60a5fa;
+}
+
+/* Sort Dropdown (smaller than buttons) */
+#sort-options {
+  padding: 6px 8px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: none;
+  background-color: #3b82f6;
+  color: #f8f8ff;
+  transition: background 0.3s ease;
+  width: auto;
+  /* NOTE: Temporarily disabled until filters are fixed */
+  display: none;
+}
+#sort-options:hover {
+  background-color: #60a5fa;
+}
+
+/* ===================== */
+/* Card Container & Cards*/
+/* ===================== */
+/* Card Container styling with fade animation */
+#card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  perspective: 1000px;
+  min-height: 500px;
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 0.3s ease-out, transform 0.3s ease-out;
+}
+#card-container.visible {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* Card styling */
+.card {
+  position: relative;
+  width: 100%;
+  height: 95%;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #f8f8ff;
+  transform-style: preserve-3d;
+  transition: transform 0.3s;
+  padding: 10px;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+
+/* Card image */
+.cover {
+  max-width: 100%;
+  max-height: 300px;
+  object-fit: contain;
+}
+
+/* ===================== */
+/* Generic Button (fallback) */
+/* ===================== */
+.generic-button {
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  background-color: #3b82f6;
+  color: #f8f8ff;
+  border: none;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+.generic-button:hover {
+  background-color: #2563eb;
 }

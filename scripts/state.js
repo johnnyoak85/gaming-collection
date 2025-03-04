@@ -3,6 +3,7 @@ class AppState {
     this.state = {
       showOwned: true,
       cards: [],
+      currentTab: "",
     };
 
     this.listeners = new Set();
