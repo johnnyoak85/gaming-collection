@@ -24,6 +24,7 @@ body {
 
 /* Base Tab Button */
 button.tab {
+  width: 100vw;
   padding: 10px 15px;
   font-size: 16px;
   cursor: pointer;
@@ -99,8 +100,8 @@ button.tab[data-tab="games"].active {
 
 /* Toggle Button for Owned/Wishlist */
 #toggle-owned {
-  padding: 8px 12px;
-  font-size: 14px;
+  padding: 8px 15px;
+  font-size: 16px;
   background-color: #3b82f6;
   color: #f8f8ff;
   border: none;
