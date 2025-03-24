@@ -9,6 +9,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Kirby's Dream Land",
@@ -20,6 +21,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Super Mario Land 2: 6 Golden Coins",
@@ -31,6 +33,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "The Legend of Zelda: Link's Awakening",
@@ -42,6 +45,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Wario Land: Super Mario Land 3",
@@ -53,6 +57,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: true,
   },
   {
     name: "Kirby's Dream Land 2",
@@ -64,6 +69,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "The Legend of Zelda: Link's Awakening DX",
@@ -75,6 +81,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Super Mario Bros. Deluxe",
@@ -86,6 +93,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Wario Land 3",
@@ -97,6 +105,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: true,
   },
   {
     name: "The Legend of Zelda: Oracle of Ages",
@@ -108,6 +117,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "The Legend of Zelda: Oracle of Seasons",
@@ -119,6 +129,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "The Legend of Zelda: Ocarina of Time + The Legend of Zelda: Ocarina of Time: Master Quest: Two-game Bonus Disc!",
@@ -130,6 +141,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "The Legend of Zelda: Twilight Princess",
@@ -141,6 +153,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "The Legend of Zelda: Four Swords Adventures",
@@ -152,6 +165,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "The Legend of Zelda: Collector's Edition",
@@ -163,6 +177,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Super Smash Bros. Melee",
@@ -174,6 +189,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Super Smash Bros. Ultimate",
@@ -185,6 +201,7 @@ export const games = [
     completed: false,
     hours: 40,
     type: "games",
+    backlog: false,
   },
   {
     name: "Super Smash Bros. Brawl",
@@ -196,6 +213,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Kirby Air Ride",
@@ -207,6 +225,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: true,
   },
   {
     name: "SoulCalibur II",
@@ -218,6 +237,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Sonic Mega Collection",
@@ -229,6 +249,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Sonic Gems Collection",
@@ -240,6 +261,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Sonic Adventure DX: Director's Cut",
@@ -251,6 +273,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Sonic Adventure 2: Battle",
@@ -262,6 +285,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "The Legend of Zelda: The Wind Waker HD",
@@ -273,6 +297,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "The Legend of Zelda: Breath of the Wild",
@@ -284,6 +309,7 @@ export const games = [
     completed: true,
     hours: 100,
     type: "games",
+    backlog: false,
   },
   {
     name: "The Legend of Zelda: Tears of the Kingdom",
@@ -295,6 +321,7 @@ export const games = [
     completed: false,
     hours: 120,
     type: "games",
+    backlog: true,
   },
   {
     name: "The Legend of Zelda: Majora's Mask 3D",
@@ -306,6 +333,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "The Legend of Zelda: Ocarina of Time 3D",
@@ -317,6 +345,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "The Legend of Zelda: A Link Between Worlds",
@@ -328,6 +357,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "The Legend of Zelda: Twilight Princess HD",
@@ -339,6 +369,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "The Legend of Zelda: The Minish Cap",
@@ -350,6 +381,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Classic NES Series: The Legend of Zelda",
@@ -361,6 +393,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Classic NES Series: Zelda II: The Adventure of Link",
@@ -372,6 +405,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "The Legend of Zelda: Link's Awakening",
@@ -383,6 +417,7 @@ export const games = [
     completed: true,
     hours: 16,
     type: "games",
+    backlog: false,
   },
   {
     name: "The Legend of Zelda: Skyward Sword HD",
@@ -394,6 +429,7 @@ export const games = [
     completed: true,
     hours: 37,
     type: "games",
+    backlog: false,
   },
   {
     name: "The Legend of Zelda: Phantom Hourglass",
@@ -405,6 +441,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "The Legend of Zelda: Spirit Tracks",
@@ -416,6 +453,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Hyrule Warriors",
@@ -427,6 +465,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Hyrule Warriors: Legends",
@@ -438,6 +477,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Hyrule Warriors: Definitive Edition",
@@ -449,6 +489,7 @@ export const games = [
     completed: false,
     hours: 50,
     type: "games",
+    backlog: false,
   },
   {
     name: "Hyrule Warriors: Age of Calamity",
@@ -460,6 +501,7 @@ export const games = [
     completed: true,
     hours: 45,
     type: "games",
+    backlog: false,
   },
   {
     name: "Link's Crossbow Training",
@@ -471,6 +513,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "The Legend of Zelda: A Link to the Past & Four Swords",
@@ -482,6 +525,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "The Legend of Zelda: Tri Force Heroes",
@@ -493,6 +537,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Nintendo Land",
@@ -503,6 +548,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: true,
   },
   {
     name: "Cadence of Hyrule: Crypt of the NecroDancer Featuring the Legend of Zelda",
@@ -514,6 +560,7 @@ export const games = [
     completed: true,
     hours: 8,
     type: "games",
+    backlog: false,
   },
   {
     name: "Paper Mario: Sticker Star",
@@ -525,6 +572,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: true,
   },
   {
     name: "Paper Mario: Color Splash",
@@ -536,6 +584,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: true,
   },
   {
     name: "Super Paper Mario",
@@ -547,6 +596,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Paper Mario: The Origami King",
@@ -558,6 +608,7 @@ export const games = [
     completed: true,
     hours: 34,
     type: "games",
+    backlog: false,
   },
   {
     name: "Paper Mario: The Thousand-Year Door",
@@ -569,6 +620,7 @@ export const games = [
     completed: false,
     hours: 40,
     type: "games",
+    backlog: true,
   },
   {
     name: "Super Mario All-Stars: 25th Anniversary Edition",
@@ -580,6 +632,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: true,
   },
   {
     name: "Super Mario 3D All-Stars",
@@ -591,6 +644,7 @@ export const games = [
     completed: false,
     hours: 50,
     type: "games",
+    backlog: false,
   },
   {
     name: "Super Mario Galaxy",
@@ -602,6 +656,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Super Mario Galaxy 2",
@@ -613,6 +668,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Super Mario 64 DS",
@@ -624,6 +680,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: true,
   },
   {
     name: "Super Mario Advance: Super Mario Bros. 2 & Mario Bros.",
@@ -635,6 +692,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: true,
   },
   {
     name: "Super Mario World: Super Mario Advance 2",
@@ -646,6 +704,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: true,
   },
   {
     name: "Super Mario Advance 4: Super Mario Bros. 3",
@@ -657,6 +716,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: true,
   },
   {
     name: "Super Mario 3D Land",
@@ -668,6 +728,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Super Mario 3D World",
@@ -679,6 +740,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Super Mario 3D World + Bowser's Fury",
@@ -690,6 +752,7 @@ export const games = [
     completed: true,
     hours: 18,
     type: "games",
+    backlog: false,
   },
   {
     name: "Captain Toad: Treasure Tracker",
@@ -701,6 +764,7 @@ export const games = [
     completed: true,
     hours: 12,
     type: "games",
+    backlog: false,
   },
   {
     name: "Kirby and the Rainbow Paintbrush",
@@ -712,6 +776,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: true,
   },
   {
     name: "Rhapsody: A Musical Adventure",
@@ -723,6 +788,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Rhapsody: Marl Kingdom Chronicles",
@@ -734,6 +800,7 @@ export const games = [
     completed: false,
     hours: 40,
     type: "games",
+    backlog: true,
   },
   {
     name: "Luigi's Mansion",
@@ -745,6 +812,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Luigi's Mansion 2",
@@ -756,6 +824,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Luigi's Mansion 2 HD",
@@ -767,6 +836,7 @@ export const games = [
     completed: true,
     hours: 18,
     type: "games",
+    backlog: false,
   },
   {
     name: "Luigi's Mansion 3",
@@ -778,6 +848,7 @@ export const games = [
     completed: true,
     hours: 17,
     type: "games",
+    backlog: false,
   },
   {
     name: "Yoshi's New Island",
@@ -789,6 +860,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Yoshi's Island DS",
@@ -800,6 +872,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "WarioWare: Smooth Moves",
@@ -811,6 +884,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Wario Land 4",
@@ -822,6 +896,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Wario Land: The Shake Dimension",
@@ -833,6 +908,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: true,
   },
   {
     name: "Metroid: Samus Returns",
@@ -844,6 +920,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Metroid Dread",
@@ -855,6 +932,7 @@ export const games = [
     completed: true,
     hours: 12,
     type: "games",
+    backlog: false,
   },
   {
     name: "Metroid Prime Remastered",
@@ -866,6 +944,7 @@ export const games = [
     completed: true,
     hours: 16,
     type: "games",
+    backlog: false,
   },
   {
     name: "Kirby: Nightmare in Dream Land",
@@ -877,6 +956,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Kirby's Extra Epic Yarn",
@@ -888,6 +968,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: true,
   },
   {
     name: "Kirby's Adventure Wii",
@@ -899,6 +980,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Kirby's Return to Dream Land Deluxe",
@@ -910,6 +992,7 @@ export const games = [
     completed: true,
     hours: 11,
     type: "games",
+    backlog: false,
   },
   {
     name: "Kirby Mass Attack",
@@ -921,6 +1004,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Kirby: Mouse Attack",
@@ -932,6 +1016,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Kirby Super Star Ultra",
@@ -943,6 +1028,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Kirby & the Amazing Mirror",
@@ -954,6 +1040,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Kirby Triple Deluxe",
@@ -965,6 +1052,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Kirby: Planet Robobot",
@@ -976,6 +1064,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Kid Icarus: Uprising",
@@ -987,6 +1076,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: true,
   },
   {
     name: "New Super Mario Bros.",
@@ -998,6 +1088,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "New Super Mario Bros. 2",
@@ -1009,6 +1100,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: true,
   },
   {
     name: "New Super Mario Bros. Wii",
@@ -1020,6 +1112,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: true,
   },
   {
     name: "New Super Mario Bros. U Deluxe",
@@ -1031,6 +1124,7 @@ export const games = [
     completed: false,
     hours: 17,
     type: "games",
+    backlog: true,
   },
   {
     name: "Golden Sun",
@@ -1042,6 +1136,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Golden Sun: The Lost Age",
@@ -1053,6 +1148,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Golden Sun: Dark Dawn",
@@ -1064,6 +1160,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Chrono Trigger",
@@ -1075,6 +1172,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Sonic Advance",
@@ -1086,6 +1184,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Sonic Advance 2",
@@ -1097,6 +1196,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Sonic Advance 3",
@@ -1108,6 +1208,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Sonic the Hedgehog Genesis",
@@ -1119,6 +1220,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Sonic Generations",
@@ -1130,6 +1232,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Shadow the Hedgehog",
@@ -1141,6 +1244,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Meteos",
@@ -1152,17 +1256,19 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
-    name: "Rhythm Heaven",
+    name: "Rhythm Paradise",
     image: "co2e11",
-    series: "Rhythm Heaven",
+    series: "Rhythm Paradise",
     release: "2009-05-01",
     owned: true,
     platforms: ["Nintendo DS"],
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Ōkamiden",
@@ -1174,6 +1280,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: true,
   },
   {
     name: "Ōkami",
@@ -1185,6 +1292,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: true,
   },
   {
     name: "Dragon Ball Z: Attack of the Saiyans",
@@ -1196,6 +1304,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Dragon Ball Z: Budokai",
@@ -1207,6 +1316,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Dragon Ball Z: Budokai 2",
@@ -1218,6 +1328,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Dragon Ball Z: Budokai 3",
@@ -1229,6 +1340,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Dragon Ball Z: Infinite World",
@@ -1240,6 +1352,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Dragon Ball Z: Budokai Tenkaichi",
@@ -1251,6 +1364,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Dragon Ball Z: Budokai Tenkaichi 2",
@@ -1262,6 +1376,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Dragon Ball Z: Budokai Tenkaichi 3",
@@ -1273,6 +1388,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Super Dragon Ball Z",
@@ -1284,6 +1400,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Dragon Ball: Final Bout",
@@ -1295,6 +1412,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Dragon Ball Z: Burst Limit",
@@ -1306,6 +1424,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Dragon Ball Z: Raging Blast",
@@ -1317,6 +1436,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Dragon Ball Z: Raging Blast 2",
@@ -1328,6 +1448,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Dragon Ball: Advanced Adventure",
@@ -1339,6 +1460,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Dragon Ball Z: Supersonic Warriors",
@@ -1350,6 +1472,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Dragon Ball: Revenge of King Piccolo",
@@ -1361,6 +1484,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Dragon Ball Z: Extreme Butouden",
@@ -1372,6 +1496,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "SoulCalibur",
@@ -1383,6 +1508,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "SoulCalibur III",
@@ -1394,6 +1520,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "SoulCalibur IV",
@@ -1405,6 +1532,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Soul Blade",
@@ -1416,6 +1544,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Star Fox 64 3D",
@@ -1427,6 +1556,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: true,
   },
   {
     name: "Donkey Kong Country Returns 3D",
@@ -1438,6 +1568,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Ultimate NES Remix",
@@ -1449,6 +1580,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Pokémon Alpha Sapphire",
@@ -1460,6 +1592,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Castlevania Judgment",
@@ -1471,6 +1604,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "The Legend of Zelda: Ocarina of Time",
@@ -1482,6 +1616,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "The Legend of Zelda: Majora's Mask",
@@ -1493,6 +1628,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "The Legend of Zelda: The Wind Waker",
@@ -1504,6 +1640,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "The Legend of Zelda: Skyward Sword",
@@ -1515,6 +1652,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Dragon Ball: Xenoverse 2",
@@ -1526,6 +1664,7 @@ export const games = [
     completed: false,
     hours: 40,
     type: "games",
+    backlog: false,
   },
   {
     name: "Tenchu: Stealth Assassins",
@@ -1537,6 +1676,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Tenchu 2: Birth of the Stealth Assassins",
@@ -1548,6 +1688,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Tenchu: Wrath of Heaven",
@@ -1559,6 +1700,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Tenchu: Fatal Shadows",
@@ -1570,6 +1712,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Tenchu Z",
@@ -1581,6 +1724,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Fable II",
@@ -1592,6 +1736,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: true,
   },
   {
     name: "Fable III",
@@ -1603,6 +1748,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "X-Men Origins: Wolverine: Uncaged Edition",
@@ -1614,6 +1760,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Grand Theft Auto IV",
@@ -1625,6 +1772,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Street Fighter Anniversary Collection",
@@ -1636,6 +1784,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "We Love Katamari",
@@ -1647,6 +1796,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Tokobot Plus: Mysteries of the Karakuri",
@@ -1658,6 +1808,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Tekken 3",
@@ -1669,6 +1820,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Tomb Raider III: Adventures of Lara Croft",
@@ -1680,6 +1832,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Street Fighter Alpha 3",
@@ -1691,6 +1844,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Dungeon Keeper Gold",
@@ -1702,6 +1856,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Hocus Pocus",
@@ -1712,6 +1867,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: true,
   },
   {
     name: "Pokémon Play It!",
@@ -1723,6 +1879,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Descent",
@@ -1734,6 +1891,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Halloween Harry in Zombie Wars",
@@ -1745,6 +1903,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Dark Colony",
@@ -1755,6 +1914,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Warhammer: Dark Omen",
@@ -1766,6 +1926,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Theme Hospital",
@@ -1777,6 +1938,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Wii Play",
@@ -1788,6 +1950,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Wii Sports",
@@ -1799,6 +1962,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Wii Sports Resort",
@@ -1810,6 +1974,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Wii Fit Plus",
@@ -1821,6 +1986,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Punch-Out!!",
@@ -1832,6 +1998,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: true,
   },
   {
     name: "MadWorld",
@@ -1842,6 +2009,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: true,
   },
   {
     name: "Mario Kart Wii",
@@ -1853,6 +2021,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Nights: Journey of Dreams",
@@ -1864,6 +2033,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: true,
   },
   {
     name: "Mini Ninjas",
@@ -1875,6 +2045,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Tatsunoko vs. Capcom: Ultimate All Stars",
@@ -1886,6 +2057,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Bayonetta 3",
@@ -1897,6 +2069,7 @@ export const games = [
     completed: false,
     hours: 19,
     type: "games",
+    backlog: true,
   },
   {
     name: "Bayonetta 2",
@@ -1908,6 +2081,7 @@ export const games = [
     completed: true,
     hours: 13,
     type: "games",
+    backlog: false,
   },
   {
     name: "Kirby and the Forgotten Land",
@@ -1919,6 +2093,7 @@ export const games = [
     completed: true,
     hours: 16,
     type: "games",
+    backlog: false,
   },
   {
     name: "Kirby Star Allies",
@@ -1930,6 +2105,7 @@ export const games = [
     completed: true,
     hours: 9,
     type: "games",
+    backlog: false,
   },
   {
     name: "WarioWare: Move It!",
@@ -1941,6 +2117,7 @@ export const games = [
     completed: false,
     hours: 4,
     type: "games",
+    backlog: true,
   },
   {
     name: "Donkey Kong Country: Tropical Freeze",
@@ -1952,6 +2129,7 @@ export const games = [
     completed: false,
     hours: 20,
     type: "games",
+    backlog: true,
   },
   {
     name: "Sonic Mania Plus",
@@ -1963,6 +2141,7 @@ export const games = [
     completed: true,
     hours: 10,
     type: "games",
+    backlog: false,
   },
   {
     name: "Sonic Origin Plus",
@@ -1974,6 +2153,7 @@ export const games = [
     completed: false,
     hours: 11,
     type: "games",
+    backlog: true,
   },
   {
     name: "Sonic Superstars",
@@ -1985,6 +2165,7 @@ export const games = [
     completed: false,
     hours: 10,
     type: "games",
+    backlog: true,
   },
   {
     name: "Super Mario RPG",
@@ -1995,6 +2176,7 @@ export const games = [
     completed: true,
     hours: 14,
     type: "games",
+    backlog: false,
   },
   {
     name: "Dead Cells: Return to Castlevania Edition",
@@ -2005,6 +2187,7 @@ export const games = [
     completed: false,
     hours: 30,
     type: "games",
+    backlog: false,
   },
   {
     name: "Metal Gear Solid Master Collection: Volume 1",
@@ -2015,6 +2198,7 @@ export const games = [
     completed: false,
     hours: 48,
     type: "games",
+    backlog: true,
   },
   {
     name: "Pac-Man World Re-Pac",
@@ -2026,6 +2210,7 @@ export const games = [
     completed: true,
     hours: 7,
     type: "games",
+    backlog: false,
   },
   {
     name: "Star Ocean: The Second Story R",
@@ -2037,6 +2222,7 @@ export const games = [
     completed: false,
     hours: 34,
     type: "games",
+    backlog: true,
   },
   {
     name: "Disney Classic Games Collection",
@@ -2047,6 +2233,7 @@ export const games = [
     completed: false,
     hours: 5,
     type: "games",
+    backlog: false,
   },
   {
     name: "Eastward",
@@ -2057,6 +2244,7 @@ export const games = [
     completed: false,
     hours: 25,
     type: "games",
+    backlog: false,
   },
   {
     name: "Live A Live",
@@ -2067,6 +2255,7 @@ export const games = [
     completed: true,
     hours: 27,
     type: "games",
+    backlog: false,
   },
   {
     name: "Sea of Stars",
@@ -2077,6 +2266,7 @@ export const games = [
     completed: false,
     hours: 35,
     type: "games",
+    backlog: true,
   },
   {
     name: "Snipperclips Plus: Cut It Out, Together!",
@@ -2087,6 +2277,7 @@ export const games = [
     completed: false,
     hours: 8,
     type: "games",
+    backlog: false,
   },
   {
     name: "Pocky & Rocky Reshrined",
@@ -2098,6 +2289,7 @@ export const games = [
     completed: false,
     hours: 4,
     type: "games",
+    backlog: false,
   },
   {
     name: "​The Ninja Saviors: Return of the Warriors",
@@ -2109,6 +2301,7 @@ export const games = [
     completed: true,
     hours: 4,
     type: "games",
+    backlog: false,
   },
   {
     name: "Double Dragon Gaiden: Rise of the Dragons",
@@ -2120,6 +2313,7 @@ export const games = [
     completed: false,
     hours: 6,
     type: "games",
+    backlog: true,
   },
   {
     name: "Streets of Rage 4: Anniversary Edition",
@@ -2131,6 +2325,7 @@ export const games = [
     completed: true,
     hours: 8,
     type: "games",
+    backlog: false,
   },
   {
     name: "Teenage Mutant Ninja Turtles: Shredder's Revenge",
@@ -2142,6 +2337,7 @@ export const games = [
     completed: true,
     hours: 4,
     type: "games",
+    backlog: false,
   },
   {
     name: "Princess Peach: Showtime!",
@@ -2153,6 +2349,7 @@ export const games = [
     completed: true,
     hours: 9,
     type: "games",
+    backlog: false,
   },
   {
     name: "Super Mario Bros. Wonder",
@@ -2164,6 +2361,7 @@ export const games = [
     completed: false,
     hours: 14,
     type: "games",
+    backlog: true,
   },
   {
     name: "Super Mario Odyssey",
@@ -2175,6 +2373,7 @@ export const games = [
     completed: true,
     hours: 27,
     type: "games",
+    backlog: false,
   },
   {
     name: "Bloodstained: Ritual of the Night",
@@ -2186,6 +2385,7 @@ export const games = [
     completed: false,
     hours: 22,
     type: "games",
+    backlog: true,
   },
   {
     name: "Mario & Luigi: Superstar Saga + Bowser's Minions",
@@ -2197,6 +2397,7 @@ export const games = [
     completed: false,
     hours: 28,
     type: "games",
+    backlog: true,
   },
   {
     name: "Mario & Luigi: Paper Jam",
@@ -2208,6 +2409,7 @@ export const games = [
     completed: false,
     hours: 32,
     type: "games",
+    backlog: true,
   },
   {
     name: "Another Code: Recollection",
@@ -2219,6 +2421,7 @@ export const games = [
     completed: false,
     hours: 16,
     type: "games",
+    backlog: false,
   },
   {
     name: "Emio: The Smiling Man: Famicom Detective Club",
@@ -2230,6 +2433,7 @@ export const games = [
     completed: false,
     hours: 12,
     type: "games",
+    backlog: true,
   },
   {
     name: "Shadow of the Ninja Reborn",
@@ -2241,6 +2445,7 @@ export const games = [
     completed: false,
     hours: 8,
     type: "games",
+    backlog: false,
   },
   {
     name: "Dragon Quest III: HD-2D Remake",
@@ -2252,6 +2457,7 @@ export const games = [
     completed: false,
     hours: 40,
     type: "games",
+    backlog: true,
   },
   {
     name: "The Legend of Zelda: Echoes of Wisdom",
@@ -2263,6 +2469,7 @@ export const games = [
     completed: true,
     hours: 30,
     type: "games",
+    backlog: false,
   },
   {
     name: "Mario & Luigi: Brothership",
@@ -2274,6 +2481,7 @@ export const games = [
     completed: false,
     hours: 50,
     type: "games",
+    backlog: true,
   },
   {
     name: "Tomb Raider I-III Remastered Starring Lara Croft",
@@ -2285,6 +2493,7 @@ export const games = [
     completed: false,
     hours: 60,
     type: "games",
+    backlog: true,
   },
   {
     name: "Metroid Fusion",
@@ -2296,6 +2505,7 @@ export const games = [
     completed: false,
     hours: 6,
     type: "games",
+    backlog: true,
   },
   {
     name: "Prince of Persia: The Lost Crown",
@@ -2307,6 +2517,7 @@ export const games = [
     completed: false,
     hours: 24,
     type: "games",
+    backlog: false,
   },
   {
     name: "We Love Katamari Reroll + Royal Reverie",
@@ -2318,6 +2529,7 @@ export const games = [
     completed: false,
     hours: 16,
     type: "games",
+    backlog: true,
   },
   {
     name: "Donkey Kong Country Returns HD",
@@ -2329,6 +2541,7 @@ export const games = [
     completed: false,
     hours: 18,
     type: "games",
+    backlog: true,
   },
   {
     name: "Mario & Luigi: Superstar Saga",
@@ -2340,6 +2553,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: true,
   },
   {
     name: "Magical Starsign",
@@ -2351,6 +2565,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: true,
   },
   {
     name: "Sword of Mana",
@@ -2362,6 +2577,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: true,
   },
   {
     name: "Castlevania",
@@ -2373,6 +2589,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Castlevania: Legacy of Darkness",
@@ -2384,6 +2601,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Kirby 64: The Crystal Shards",
@@ -2395,6 +2613,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Mario Kart 64",
@@ -2406,6 +2625,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Mischief Makers",
@@ -2417,6 +2637,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Paper Mario",
@@ -2428,6 +2649,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Super Mario 64",
@@ -2439,6 +2661,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Super Smash Bros.",
@@ -2450,6 +2673,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Luigi's Mansion",
@@ -2461,6 +2685,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Mario Kart: Double Dash!!",
@@ -2472,6 +2697,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Paper Mario: The Thousand-Year Door",
@@ -2483,6 +2709,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Super Mario Sunshine",
@@ -2494,6 +2721,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Kirby's Epic Yarn",
@@ -2505,6 +2733,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Rhythm Heaven Fever",
@@ -2516,6 +2745,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Metroid: Other M",
@@ -2527,6 +2757,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Super Smash Bros. for Nintendo Wii U",
@@ -2538,6 +2769,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Castlevania: The Adventure",
@@ -2549,6 +2781,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Castlevania II: Belmont's Revenge",
@@ -2560,6 +2793,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Castlevania Legends",
@@ -2571,6 +2805,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Kirby's Block Ball",
@@ -2582,6 +2817,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Kirby's Pinball Land",
@@ -2593,6 +2829,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Metroid II: Return of Samus",
@@ -2604,6 +2841,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Wario Land II",
@@ -2615,6 +2853,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Classic NES Series: Castlevania",
@@ -2626,6 +2865,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Classic NES Series: Metroid",
@@ -2637,6 +2877,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Classic NES Series: Super Mario Bros.",
@@ -2648,6 +2889,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Castlevania: Aria of Sorrow",
@@ -2659,6 +2901,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Castlevania: Circle of the Moon",
@@ -2670,6 +2913,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Castlevania: Harmony of Dissonance",
@@ -2681,6 +2925,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Metroid: Zero Mission",
@@ -2692,6 +2937,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Pokémon: FireRed Version",
@@ -2703,6 +2949,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Castlevania: Dawn of Sorrow",
@@ -2714,6 +2961,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Castlevania: Portrait of Ruin",
@@ -2725,6 +2973,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Castlevania: Order of Ecclesia",
@@ -2736,6 +2985,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Freshly-Picked Tingle's Rosy Rupeeland",
@@ -2747,6 +2997,7 @@ export const games = [
     completed: true,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Kirby Canvas Curse",
@@ -2758,6 +3009,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Mario & Luigi: Partners in Time",
@@ -2769,6 +3021,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Mario & Luigi: Bowser's Inside Story",
@@ -2780,6 +3033,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Super Princess Peach",
@@ -2791,6 +3045,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Pokémon SoulSilver Version",
@@ -2802,6 +3057,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Castlevania: Lords of Shadow - Mirror of Fate",
@@ -2813,6 +3069,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Mario & Luigi: Dream Team",
@@ -2824,6 +3081,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Mario & Luigi: Bowser's Inside Story + Bowser Jr.'s Journey",
@@ -2835,17 +3093,19 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Mario Kart 8 Deluxe",
     image: "co213p",
     series: "Mario Kart",
-    release: "2007-04-28",
+    release: "2017-04-28",
     owned: false,
     platforms: ["Nintendo Switch"],
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Sonic Adventure",
@@ -2857,6 +3117,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Sonic Adventure 2",
@@ -2868,6 +3129,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Sonic Rush",
@@ -2879,6 +3141,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Sonic Rush Adventure",
@@ -2890,6 +3153,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Sonic Lost World",
@@ -2901,6 +3165,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Sonic Colors: Ultimate",
@@ -2912,6 +3177,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: true,
   },
   {
     name: "Sonic X Shadow Generations",
@@ -2923,6 +3189,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Octopath Traveler",
@@ -2934,6 +3201,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Octopath Traveler II",
@@ -2945,6 +3213,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: true,
   },
   {
     name: "LISA: Definitive Edition",
@@ -2956,6 +3225,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Radiant Historia: Perfect Chronology",
@@ -2967,6 +3237,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Final Fantasy IV Advance",
@@ -2978,6 +3249,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Final Fantasy VI Advance",
@@ -2989,17 +3261,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
-  },
-  {
-    name: "Sands of Destruction",
-    image: "co2w9y",
-    series: "Sands of Destruction",
-    release: "2010-01-12",
-    owned: false,
-    platforms: ["Nintendo DS"],
-    completed: false,
-    hours: 0,
-    type: "games",
+    backlog: false,
   },
   {
     name: "Virgo Versus the Zodiac",
@@ -3011,6 +3273,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: true,
   },
   {
     name: "Blasphemous II",
@@ -3022,6 +3285,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Lunar Remastered Collection",
@@ -3033,6 +3297,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "The Messenger",
@@ -3044,6 +3309,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Legacy of Kain: Soul Reaver 1 & 2 Remastered",
@@ -3055,17 +3321,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
-  },
-  {
-    name: "Wild Guns Reloaded",
-    image: "co23qm",
-    series: "Wild Guns",
-    release: "2018-04-17",
-    owned: false,
-    platforms: ["Nintendo Switch"],
-    completed: false,
-    hours: 0,
-    type: "games",
+    backlog: false,
   },
   {
     name: "Ultros",
@@ -3077,6 +3333,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Suikoden I & II HD Remaster: Gate Rune and Dunan Unification Wars",
@@ -3088,6 +3345,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: true,
   },
   {
     name: "Beyond the Ice Palace II",
@@ -3099,6 +3357,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: true,
   },
   {
     name: "Shadow Labyrinth",
@@ -3110,6 +3369,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Metroid Prime 4: Beyond",
@@ -3121,6 +3381,7 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
   },
   {
     name: "Dragon Quest I & II: HD-2D Remake",
@@ -3132,5 +3393,114 @@ export const games = [
     completed: false,
     hours: 0,
     type: "games",
+    backlog: false,
+  },
+  {
+    name: "Breath of Fire",
+    image: "co7cn8",
+    series: "Breath of Fire",
+    release: "2001-12-14",
+    owned: false,
+    platforms: ["Nintendo Game Boy Advance"],
+    completed: false,
+    hours: 0,
+    type: "games",
+    backlog: false,
+  },
+  {
+    name: "Breath of Fire II",
+    image: "co8dq3",
+    series: "Breath of Fire",
+    release: "2001-12-21",
+    owned: false,
+    platforms: ["Nintendo Game Boy Advance"],
+    completed: false,
+    hours: 0,
+    type: "games",
+    backlog: false,
+  },
+  {
+    name: "Pokémon Platinum Version",
+    image: "co8gvp",
+    series: "Pokémon",
+    release: "2009-05-22",
+    owned: false,
+    platforms: ["Nintendo DS"],
+    completed: false,
+    hours: 0,
+    type: "games",
+    backlog: false,
+  },
+  {
+    name: "Pokémon Black Version",
+    image: "co1z1x",
+    series: "Pokémon",
+    release: "2011-03-04",
+    owned: false,
+    platforms: ["Nintendo DS"],
+    completed: false,
+    hours: 0,
+    type: "games",
+    backlog: false,
+  },
+  {
+    name: "Pokémon Black Version 2",
+    image: "co1z8d",
+    series: "Pokémon",
+    release: "2012-10-12",
+    owned: false,
+    platforms: ["Nintendo DS"],
+    completed: false,
+    hours: 0,
+    type: "games",
+    backlog: false,
+  },
+  {
+    name: "Ys Memoire: The Oath in Felghana",
+    image: "co9935",
+    series: "Ys",
+    release: "2023-04-27",
+    owned: false,
+    platforms: ["Nintendo Switch"],
+    completed: false,
+    hours: 0,
+    type: "games",
+    backlog: false,
+  },
+  {
+    name: "Ys: Memories of Celceta",
+    image: "co6ejg",
+    series: "Ys",
+    release: "2025-05-22",
+    owned: false,
+    platforms: ["Nintendo Switch"],
+    completed: false,
+    hours: 0,
+    type: "games",
+    backlog: false,
+  },
+  {
+    name: "Ys Origin",
+    image: "co2z70",
+    series: "Ys",
+    release: "2020-10-12",
+    owned: false,
+    platforms: ["Nintendo Switch"],
+    completed: false,
+    hours: 0,
+    type: "games",
+    backlog: false,
+  },
+  {
+    name: "Ys VIII: Lacrimosa of Dana",
+    image: "co234k",
+    series: "Ys",
+    release: "2018-06-29",
+    owned: false,
+    platforms: ["Nintendo Switch"],
+    completed: false,
+    hours: 0,
+    type: "games",
+    backlog: false,
   },
 ];
