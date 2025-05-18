@@ -1977,7 +1977,7 @@ export const games = [
     backlog: false,
   },
   {
-    name: "Wii Fit Plus",
+    name: "Wii Fit U",
     image: "co1p9r",
     series: "Wii Fit",
     release: "2013-11-01",
@@ -1989,7 +1989,7 @@ export const games = [
     backlog: false,
   },
   {
-    name: "Wii Fit U",
+    name: "Wii Fit Plus",
     image: "co86mm",
     series: "Wii Fit",
     release: "2009-10-30",
@@ -2916,11 +2916,11 @@ export const games = [
     backlog: false,
   },
   {
-    name: "Castlevania: Circle of the Moon",
+    name: "Castlevania",
     image: "co2zq1",
     series: "Castlevania",
     release: "2001-06-22",
-    owned: false,
+    owned: true,
     platforms: ["Nintendo Game Boy Advance"],
     completed: true,
     hours: 0,
