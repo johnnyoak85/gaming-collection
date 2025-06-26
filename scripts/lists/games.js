@@ -2932,7 +2932,7 @@ export const games = [
     image: "co5otg",
     series: "Castlevania",
     release: "2002-10-11",
-    owned: false,
+    owned: true,
     platforms: ["Nintendo Game Boy Advance"],
     completed: true,
     hours: 0,
@@ -3268,7 +3268,7 @@ export const games = [
     image: "co2yh2",
     series: "Final Fantasy",
     release: "2007-06-29",
-    owned: false,
+    owned: true,
     platforms: ["Nintendo Game Boy Advance"],
     completed: false,
     hours: 0,
@@ -3515,7 +3515,6 @@ export const games = [
     type: "games",
     backlog: false,
   },
-  //
   {
     name: "Kirby Air Riders",
     image: "co9m6e",
