@@ -380,6 +380,16 @@ export const hardware = [
     type: "hardware",
   },
   {
+    name: "Switch 2",
+    image: "switch2",
+    company: "Nintendo",
+    series: "Switch 2",
+    format: "Hybrid",
+    release: "2025-06-05",
+    owned: true,
+    type: "hardware",
+  },
+  {
     name: "Switch Lite (Turquoise)",
     image: "switch-lite",
     company: "Nintendo",
