@@ -650,16 +650,15 @@ export const hardware = [
     type: "hardware",
   },
   {
-    name: "Mega Drive Controller (Bluetooth)",
-    image: "mega-drive-controller",
-    company: "Sega",
-    series: "Switch",
-    format: "Controller",
-    release: "2021-11-24",
+    name: "Virtual Boy for Nintendo Switch",
+    image: "vboy",
+    company: "Nintendo",
+    series: "Nintendo Switch",
+    format: "Adapter",
+    release: "2026-02-17",
     owned: false,
     type: "hardware",
   },
-
   // {
   //   name: "8BitDo Pro 3 Bluetooth Gamepad",
   //   image: "pro3",
