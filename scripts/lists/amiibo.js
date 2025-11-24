@@ -573,7 +573,7 @@ export const amiibos = [
     image: "rosalina",
     series: "Super Smash Bros.",
     release: "2016-10-07",
-    owned: false,
+    owned: true,
     type: "amiibos",
   },
   {
@@ -581,7 +581,7 @@ export const amiibos = [
     image: "daisy",
     series: "Super Smash Bros.",
     release: "2016-10-20",
-    owned: false,
+    owned: true,
     type: "amiibos",
   },
   {
