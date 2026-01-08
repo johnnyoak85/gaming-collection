@@ -52,7 +52,7 @@ export const amiibos = [
     image: "metroid",
     series: "Metroid",
     release: "2017-09-15",
-    owned: false,
+    owned: true,
     type: "amiibos",
   },
   {
@@ -605,7 +605,7 @@ export const amiibos = [
     image: "sylux",
     series: "Metroid",
     release: "2025-12-04",
-    owned: false,
+    owned: true,
     type: "amiibos",
   },
   {
