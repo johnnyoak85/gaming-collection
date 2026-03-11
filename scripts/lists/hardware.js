@@ -656,7 +656,7 @@ export const hardware = [
     series: "Nintendo Switch",
     format: "Adapter",
     release: "2026-02-17",
-    owned: false,
+    owned: true,
     type: "hardware",
   },
   // {
