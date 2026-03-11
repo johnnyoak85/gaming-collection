@@ -549,7 +549,7 @@ export const amiibos = [
     image: "riju",
     series: "The Legend of Zelda",
     release: "2025-06-05",
-    owned: false,
+    owned: true,
     type: "amiibos",
   },
   {
@@ -625,3 +625,4 @@ export const amiibos = [
     type: "amiibos",
   },
 ];
+
